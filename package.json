@@ -1,0 +1,15 @@
+{
+  "name": "function-greet-testing",
+  "version": "1.0.0",
+  "description": "This repository displays my first Unit Testing, done with Jest, on a function called Greet().",
+  "main": "greet.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

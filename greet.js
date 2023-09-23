@@ -1,7 +1,17 @@
 let name = 'Elizabeth';
 
 function greet(name) {
-    console.log('Hello, ',name);
+    let result = '';
+
+    if(typeof name !== "string") {
+        result = 'Hello there!';
+        return result;
+    }else {
+        result = 'Hello, ' + name;
+        return result;
+    }
 }
 
-greet(name);
+// greet(name);
+
+module.exports = greet;
